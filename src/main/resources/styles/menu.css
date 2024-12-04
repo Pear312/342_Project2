@@ -1,0 +1,27 @@
+#menuRoot {
+    -fx-background-image: url("/images/Cards/backgrounds/MenuPhoto.jpg");
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#menuRoot Button{
+    -fx-background-color: rgb(229, 229, 229);
+    -fx-text-fill: #000000;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Impact";
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+
+}
+
+#menuRoot Button:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+}
+
+#menuRoot Button:hover {
+    -fx-background-color: #adadad;
+}
+

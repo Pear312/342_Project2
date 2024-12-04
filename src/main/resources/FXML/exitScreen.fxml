@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="exitRoot" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/exitScreen.css" xmlns="http://javafx.com/javafx/19.0.2.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyController">
+   <children>
+      <Label layoutX="249.0" layoutY="158.0" text="Thanks For Playing" />
+      <Label fx:id="exitLabel" layoutX="282.0" layoutY="200.0" text="Exiting" />
+   </children>
+</AnchorPane>

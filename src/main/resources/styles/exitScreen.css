@@ -1,0 +1,10 @@
+#exitRoot {
+    -fx-background-image: url("/images/Cards/backgrounds/poker-table-background-green-color_47243-1094.png");
+    -fx-background-size: fill;
+    -fx-background-position: center;
+}
+
+#exitRoot Label {
+    -fx-text-fill: white;
+}
+

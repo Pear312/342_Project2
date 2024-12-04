@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="optionsRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/options.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyController">
+   <children>
+      <Button layoutX="8.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchBackToGame" text="Back" />
+      <Button layoutX="262.0" layoutY="141.0" mnemonicParsing="false" onAction="#switchToExit" prefHeight="25.0" prefWidth="77.0" text="Exit" />
+      <Button layoutX="262.0" layoutY="187.0" mnemonicParsing="false" onAction="#switchFreshStart" prefHeight="25.0" prefWidth="77.0" text="Fresh Start" />
+      <Button layoutX="262.0" layoutY="231.0" mnemonicParsing="false" onAction="#switchToThemes" prefHeight="25.0" prefWidth="77.0" text="New Look" />
+      <Label layoutX="249.0" layoutY="67.0" prefHeight="47.0" prefWidth="117.0" text="Options">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

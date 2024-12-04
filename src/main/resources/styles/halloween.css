@@ -1,0 +1,69 @@
+#gameRoot{
+    -fx-background-image: url(/images/Cards/backgrounds/halloween.jpg);
+    -fx-background-size: fill;
+    -fx-background-position: center;
+}
+
+.label{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#b5{
+    -fx-text-fill: #000000;
+    -fx-background-color: rgb(227, 122, 0);
+}
+
+#b10{
+    -fx-background-color: rgb(21, 21, 21);
+}
+
+#b15{
+    --fx-background-color: rgb(227, 122, 0);
+}
+
+#b20{
+    -fx-background-color: rgb(21, 21, 21);
+}
+
+#b25{
+    -fx-background-color: rgb(227, 122, 0);
+}
+
+
+#pairP{
+    -fx-text-fill: #000000;
+    -fx-font-size: 10px;
+}
+#ante{
+    -fx-text-fill: #000000;
+    -fx-font-size: 10px;
+
+}
+#play{
+    -fx-text-fill: #000000;
+    -fx-font-size: 10px;
+}
+
+.buttons{
+    -fx-font-family: "Comic Sans MS";
+    -fx-shape: "M 50, 0 a 50, 50 0 1, 1 0, 100 a 50, 50 0 1, 1 0, -100";
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50;
+    -fx-cursor: hand;
+}
+
+.decision-buttons{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.optionB{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}

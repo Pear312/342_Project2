@@ -1,0 +1,66 @@
+#gameRoot{
+    -fx-background-image: url(/images/Cards/backgrounds/christmas2.jpg);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-family: "Lucida Fax";
+    -fx-font-weight: bold;
+}
+
+#b5{
+    -fx-text-fill: #000000;
+    -fx-background-color: green;
+}
+#b10{
+    -fx-background-color: red;
+}
+#b15{
+    -fx-background-color: green;
+}
+#b20{
+    -fx-background-color: red;
+}
+#b25{
+    -fx-background-color: green;
+}
+
+
+#pairP{
+    -fx-text-fill: #000000;
+    -fx-font-size: 10px;
+}
+#ante{
+    -fx-text-fill: #000000;
+    -fx-font-size: 10px;
+
+}
+#play{
+    -fx-text-fill: #000000;
+    -fx-font-size: 10px;
+}
+
+.buttons{
+    -fx-font-family: "Lucida Fax";
+    -fx-text-fill: white;
+    -fx-shape: "M 50, 0 a 50, 50 0 1, 1 0, 100 a 50, 50 0 1, 1 0, -100";
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50;
+    -fx-cursor: hand;
+}
+
+.decision-buttons{
+    -fx-font-family: "Lucida Fax";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.optionB{
+    -fx-font-family: "Lucida Fax";
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}

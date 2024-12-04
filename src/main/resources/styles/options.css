@@ -1,0 +1,28 @@
+#optionsRoot{
+    -fx-background-image: url("/images/Cards/backgrounds/poker-table-background-green-color_47243-1094.png");
+    -fx-background-size: fill;
+    -fx-background-position: center;
+}
+
+#optionsRoot Label {
+    -fx-text-fill: white;
+}
+
+#optionsRoot Button{
+    -fx-background-color: rgb(229, 229, 229);
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-family: "Impact";
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+
+}
+
+#optionsRoot Button:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+}
+
+#optionsRoot Button:hover {
+    -fx-background-color: #adadad;
+}

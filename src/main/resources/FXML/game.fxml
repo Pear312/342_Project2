@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="gameRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/game.css" xmlns="http://javafx.com/javafx/19.0.2.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyController">
+    <children>
+        <Button fx:id="optionB" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#optionsMenu" prefHeight="16.0" prefWidth="68.0" text="Options" />
+        <Label fx:id="winnings" layoutX="483.0" layoutY="18.0" text="Winnings: $0" />
+        <ImageView fx:id="h11" fitHeight="90.0" fitWidth="62.0" layoutX="333.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="h12" fitHeight="90.0" fitWidth="62.0" layoutX="268.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="h13" fitHeight="90.0" fitWidth="62.0" layoutX="203.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true" />
+        <Circle fill="#fff869" layoutX="299.0" layoutY="136.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc11f" height="35.0" layoutX="282.0" layoutY="164.0" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc11f" height="35.0" layoutX="282.0" layoutY="212.0" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+        <Label fx:id="pairP" alignment="CENTER" contentDisplay="TOP" graphicTextGap="2.0" layoutX="287.0" layoutY="114.0" prefHeight="43.0" prefWidth="24.0" text="Pair &#10;Plus" textAlignment="CENTER">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Label>
+        <Label fx:id="ante" alignment="CENTER" contentDisplay="TOP" graphicTextGap="2.0" layoutX="282.0" layoutY="159.0" prefHeight="44.0" prefWidth="34.0" text="Ante&#10;" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="11.0" />
+         </font>
+        </Label>
+        <Label fx:id="play" alignment="CENTER" contentDisplay="TOP" graphicTextGap="2.0" layoutX="284.0" layoutY="207.0" prefHeight="44.0" prefWidth="30.0" text="Play&#10;" textAlignment="CENTER">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Label>
+        <Line endX="518.0" endY="76.18707275390625" layoutX="82.0" layoutY="284.0" startX="-82.0" startY="76.18707275390625" />
+        <Label fx:id="cTurn" layoutX="14.0" layoutY="336.0" text="Current Turn:" />
+        <Button fx:id="b5" alignment="CENTER" layoutX="10.0" layoutY="363.0" mnemonicParsing="false" onAction="#betPressed" prefHeight="34.0" prefWidth="48.0" styleClass="buttons" text="\$5" />
+        <Button fx:id="b10" alignment="CENTER" layoutX="61.0" layoutY="363.0" mnemonicParsing="false" onAction="#betPressed" prefHeight="34.0" prefWidth="48.0" styleClass="buttons" text="\$10" />
+        <Button fx:id="b15" alignment="CENTER" layoutX="111.0" layoutY="363.0" mnemonicParsing="false" onAction="#betPressed" prefHeight="34.0" prefWidth="48.0" styleClass="buttons" text="\$15" />
+        <Button fx:id="b20" alignment="CENTER" layoutX="161.0" layoutY="363.0" mnemonicParsing="false" onAction="#betPressed" prefHeight="34.0" prefWidth="48.0" styleClass="buttons" text="\$20" />
+        <Button fx:id="b25" alignment="CENTER" layoutX="211.0" layoutY="363.0" mnemonicParsing="false" onAction="#betPressed" prefHeight="34.0" prefWidth="48.0" styleClass="buttons" text="\$25" />
+        <Button fx:id="lAction" layoutX="451.0" layoutY="365.0" mnemonicParsing="false" onAction="#deal1" styleClass="decision-buttons" text="Deal" />
+        <Button fx:id="rAction" layoutX="515.0" layoutY="365.0" mnemonicParsing="false" onAction="#clear" styleClass="decision-buttons" text="Clear" />
+        <Label layoutX="10.0" layoutY="119.0" text="Log:" />
+        <Label fx:id="logBox" contentDisplay="TOP" layoutX="10.0" layoutY="138.0" prefHeight="124.0" prefWidth="197.0">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Label>
+        <Label fx:id="pHand" layoutX="491.0" layoutY="171.0" prefHeight="22.0" prefWidth="54.0" text="P# Hand" textAlignment="CENTER" underline="true" />
+        <ImageView fx:id="h21" fitHeight="50.0" fitWidth="35.0" layoutX="496.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="h22" fitHeight="50.0" fitWidth="35.0" layoutX="459.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="h23" fitHeight="50.0" fitWidth="35.0" layoutX="533.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="d1" fitHeight="90.0" fitWidth="62.0" layoutX="331.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="d2" fitHeight="90.0" fitWidth="62.0" layoutX="266.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="d3" fitHeight="90.0" fitWidth="62.0" layoutX="201.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="lAction2" layoutX="451.0" layoutY="365.0" mnemonicParsing="false" onAction="#play" prefHeight="29.0" prefWidth="48.5" styleClass="decision-buttons" text="Play" />
+      <Button fx:id="rAction1" layoutX="515.0" layoutY="365.0" mnemonicParsing="false" onAction="#skip" prefWidth="53.5" styleClass="decision-buttons" text="Skip" textAlignment="CENTER" />
+      <Button fx:id="rAction2" layoutX="515.0" layoutY="365.0" mnemonicParsing="false" onAction="#fold" prefWidth="53.5" styleClass="decision-buttons" text="Fold" textAlignment="CENTER" />
+      <Button fx:id="lAction1" layoutX="451.0" layoutY="365.0" mnemonicParsing="false" onAction="#deal2" styleClass="decision-buttons" text="Deal" />
+      <Button fx:id="lAction3" layoutX="451.0" layoutY="365.0" mnemonicParsing="false" onAction="#play2" prefHeight="29.0" prefWidth="48.5" styleClass="decision-buttons" text="Play" />
+      <Button fx:id="rAction3" layoutX="515.0" layoutY="365.0" mnemonicParsing="false" onAction="#fold2" prefWidth="53.5" styleClass="decision-buttons" text="Fold" textAlignment="CENTER" />
+      <Button fx:id="rAction4" layoutX="515.0" layoutY="365.0" mnemonicParsing="false" onAction="#fold3" prefWidth="53.5" styleClass="decision-buttons" text="Fold" textAlignment="CENTER" />
+      <Button fx:id="replayQH" layoutX="472.0" layoutY="365.0" mnemonicParsing="false" onAction="#replayQH" prefHeight="29.0" prefWidth="68.0" styleClass="decision-buttons" text="Replay" />
+      <Button fx:id="replay" layoutX="472.0" layoutY="365.0" mnemonicParsing="false" onAction="#newRound" prefHeight="29.0" prefWidth="68.0" styleClass="decision-buttons" text="Replay" />
+    </children>
+</AnchorPane>

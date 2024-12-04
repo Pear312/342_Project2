@@ -1,0 +1,62 @@
+#themeRoot {
+    -fx-background-image: url("/images/Cards/backgrounds/poker-table-background-green-color_47243-1094.png");
+    -fx-background-size: fill;
+    -fx-background-position: center;
+}
+
+#themeRoot Label {
+    -fx-text-fill: white;
+}
+
+
+#themeRoot Button {
+    -fx-background-color: rgb(229, 229, 229);
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px; 
+    -fx-font-family: "Impact";
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: gray;
+    -fx-pref-width: 150px; 
+    -fx-pref-height: 40px;
+}
+
+#themeRoot Button:hover {
+    -fx-background-color: lightgray;
+}
+
+#themeRoot .christmas {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-family: "Lucida Fax"; 
+}
+
+#themeRoot .christmas:hover {
+    -fx-background-color: darkred;
+    -fx-border-color: green;
+    -fx-border-width: 2;
+}
+
+#themeRoot .halloween {
+    -fx-background-color: orange;
+    -fx-text-fill: black;
+    -fx-font-family: "Comic Sans MS"; 
+}
+
+#themeRoot .halloween:hover {
+    -fx-background-color: darkorange;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+
+#themeRoot .original {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-family: "Impact";
+}
+
+#themeRoot .original:hover {
+    -fx-background-color: lightgray;
+}

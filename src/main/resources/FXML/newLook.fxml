@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="themeRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/newLook.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyController">
+   <children>
+      <Label alignment="CENTER" layoutX="220.0" layoutY="98.0" prefHeight="25.0" prefWidth="159.0" text="New Looks">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="229.0" layoutY="154.0" mnemonicParsing="false" onAction="#setChristmas" styleClass="christmas" text="Christmas" />
+      <Button layoutX="229.0" layoutY="200.0" mnemonicParsing="false" onAction="#setHallow" styleClass="halloween" text="Halloween" />
+      <Button layoutX="229.0" layoutY="247.0" mnemonicParsing="false" onAction="#setDefault" styleClass="original" text="Original" />
+      <Button layoutX="22.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBack2" text="Back" />
+   </children>
+</AnchorPane>
